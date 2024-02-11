@@ -1,8 +1,9 @@
-//
-//  QuizStepViewModel.swift
-//  MovieQuiz
-//
-//  Created by Denis Sirota on 2/2/24.
-//
+import UIKit
 
-import Foundation
+
+// для состояния "Вопрос показан"
+struct QuizStepViewModel {
+    let image: UIImage
+    let question: String
+    let questionNumber: String
+}

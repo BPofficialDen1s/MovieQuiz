@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+protocol AlertPresenterProtocol {
+    var delegate: AlertPresenterDelegate? { get set }
+//     func show(quiz result: QuizResultsViewModel)
+    func show(alertModel: AlertModel)
+}
